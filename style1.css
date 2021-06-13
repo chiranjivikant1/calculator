@@ -3,33 +3,56 @@ Developed by Chiranjivi Kant on 12 June 2021
 calculator Version 1.0
 https://github.com/chiranjivikant1
 */
-
-#input1 {
-  width: 74%;
-  padding: 20px;
-  font-size: 20px;
-  margin-bottom: 3px;
-  border: solid;
-  border-radius: 10px;
+#input1{
+  width: 80%;
+  padding:20px 0px 20px 20px;
+  font-size:20px;
+  margin-bottom:3px;
+  border:solid;
+  border-radius:10px;
 }
-#button2 {
-  width: 20%;
+#button2{
+  width:20%;
 }
-button {
-  padding: 20px;
-  border-radius: 10px;
+button{
+  padding:20px;
+  border-radius:10px;
   font-weight: bolder;
-  margin: 3px;
+  margin:3px;
   font-size: 20px;
+  
 }
 
-#equal {
-  background-color: green;
+#equal{
+  background-color:green;
 }
-#c {
-  background-color: red;
+#c{
+  background-color:red;
 }
 
-body {
-  margin: 3% 35%;
+body{
+  margin: 3% 35%  ;  
 }
+
+@media screen and (min-width: 300px) {
+  body {
+    background-color: lightgreen;
+    margin: 11% 0% 11% 10%;
+  }
+}
+@media screen and (min-width: 500px) {
+  body {
+    background-color: lavender;
+    margin: 3% 20%  ;  
+
+  }
+
+}
+@media screen and (min-width: 800px) {
+  body {
+    background-color: lightgreen;
+
+    margin: 3% 35%  ;  
+  }
+}
+
