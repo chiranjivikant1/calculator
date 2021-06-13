@@ -1,3 +1,9 @@
+/*
+Developed by Chiranjivi Kant on 12 June 2021
+calculator Version 1.0
+https://github.com/chiranjivikant1
+*/
+
 const input1 = document.createElement("input");
 input1.setAttribute("type", "text");
 input1.setAttribute("id", "input1");
